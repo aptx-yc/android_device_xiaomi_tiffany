@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tiffany.mk
+    $(LOCAL_DIR)/exthmui_tiffany.mk
+    #$(LOCAL_DIR)/aosp_tiffany.mk
+    
+COMMON_LUNCH_CHOICES := \
+    exthmui_tiffany-userdebug \
+    exthmui_tiffany-eng
